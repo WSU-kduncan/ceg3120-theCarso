@@ -49,5 +49,14 @@ async def on_message(message):
         #response = random.choice(brooklyn_99_quotes)
         response = random.choice(hitchhiker_quotes)
         await message.channel.send(response)
+    
+    buzzfeed = [
+            'What type of cheese are you? https://www.buzzfeed.com/amandalpot/what-type-of-cheese-are-you-9q30c39y4g',
+            'Which BTS member are you? https://www.buzzfeed.com/oofdood123/answer-11-random-questions-and-well-tell-you-whic-9y0aepst3d',
+            'Which type of chair are you? https://www.buzzfeed.com/sabrinabb/which-type-of-chair-are-you-1njud'
+            ]
+    if message.content == '!buzzfeed':
+        response = random.choice(buzzfeed)
+        await message.channel.send(response)
 
 client.run(TOKEN)
