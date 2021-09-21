@@ -26,5 +26,15 @@
 ## Modification:
   1. `git branch command`: Creates a branch
   2. `git checkout command`: Selects the branch
-  3. Make changes: 
-       ![Bot changes](bot-changes.png)
+  3. Make changes:  
+      ![Bot changes](bot-changes.png)
+  4. `git add bot.py` and `git commit`: Add and commit the updated file
+  5. `git push --set-upstream origin command`: Sets the branch upstream to command.
+  6. `git checkout main`: Go back to the main branch (what I want to merge into).
+  7. `git merge command`: Merges command into main.
+  8. `git push`
+
+## 24/7 Solutions:
+      The best solution to keeping the bot running would be by running it in a screen. By running  
+      in a screen, the bot could be run 24/7 and the machine could still be used either in another  
+      screen or outside of the screen.
