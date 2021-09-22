@@ -38,3 +38,8 @@
       The best solution to keeping the bot running would be by running it in a screen. By running  
       in a screen, the bot could be run 24/7 and the machine could still be used either in another  
       screen or outside of the screen.
+  1. `screen`: Starts a screen session
+  2. `python3 bot.py`: Run the bot
+  3. CTRL+A+D: Detach from the screen
+  4. `screen -ls`: List screens
+  5. `screen -r #####`: Reopens a detached screen
